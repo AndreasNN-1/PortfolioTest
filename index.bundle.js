@@ -99,7 +99,7 @@ var Home = /*#__PURE__*/_createClass(function Home() {
     _this.languagesBoxCon.appendChild(languageBox);
     var languageIcon = document.createElement("img");
     languageIcon.setAttribute("class", "languageIcon");
-    languageIcon.setAttribute("src", "./assets/languagesIcons/" + imageFile);
+    languageIcon.setAttribute("src", "assets/languagesIcons/" + imageFile);
     languageBox.appendChild(languageIcon);
     var languageText = document.createElement("p");
     languageText.setAttribute("class", "languageText");
