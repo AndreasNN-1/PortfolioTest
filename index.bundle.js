@@ -231,8 +231,7 @@ var Header = /*#__PURE__*/_createClass(function Header() {
           break;
         case "Projects":
           if (Key === 'C_H_E_A_') {
-            sessionStorage.setItem('key', 'C_H_E_A_P');
-            window.location.href = "/CHEAP";
+            window.location.href = "./CHEAP";
           } else {
             sessionStorage.removeItem('key');
             window.location.href = "./?Page=Projects";
