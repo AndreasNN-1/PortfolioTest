@@ -208,6 +208,7 @@ var Header = /*#__PURE__*/_createClass(function Header() {
         case "Home":
           if (Key === 'C_') {
             sessionStorage.setItem('key', 'C_H_');
+            console.log("C_H_");
           } else {
             sessionStorage.removeItem('key');
           }
@@ -216,6 +217,7 @@ var Header = /*#__PURE__*/_createClass(function Header() {
         case "About me":
           if (Key === 'C_H_E_') {
             sessionStorage.setItem('key', 'C_H_E_A_');
+            console.log("C_H_E_A_");
           } else {
             sessionStorage.removeItem('key');
           }
@@ -224,6 +226,7 @@ var Header = /*#__PURE__*/_createClass(function Header() {
         case "Experience":
           if (Key === 'C_H_') {
             sessionStorage.setItem('key', 'C_H_E_');
+            console.log("C_H_E_");
           } else {
             sessionStorage.removeItem('key');
           }
@@ -241,6 +244,7 @@ var Header = /*#__PURE__*/_createClass(function Header() {
         case "Contact":
           if (sessionStorage.getItem('key') === null) {
             sessionStorage.setItem('key', 'C_');
+            console.log("C_");
           } else {
             sessionStorage.removeItem('key');
           }
